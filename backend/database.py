@@ -19,7 +19,11 @@ DATABASE_URL = URL.create(
     database=os.getenv("DB_NAME", "customer_support_db"),
 )
 
-engine = create_engine(DATABASE_URL)
+engine = create_engine(
+    DATABASE_URL,
+    connect_args={"sslmode": "require"},
+    pool_pre_ping=True,
+)
 
 SessionLocal = sessionmaker(
     autocommit=False,
