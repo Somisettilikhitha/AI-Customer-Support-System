@@ -64,6 +64,13 @@ def home():
     return {"message": "AI Customer Support API is running!"}
 
 
+# Health Check Endpoint
+
+@app.get("/health")
+def health_check():
+    return {"status": "ok"}
+
+
 # Create Database Tables
 
 @app.on_event("startup")

@@ -19,9 +19,17 @@ DATABASE_URL = URL.create(
     database=os.getenv("DB_NAME", "customer_support_db"),
 )
 
+db_host = os.getenv("DB_HOST", "localhost")
+
+ssl_mode = (
+    "disable"
+    if db_host in ("localhost", "127.0.0.1")
+    else "require"
+)
+
 engine = create_engine(
     DATABASE_URL,
-    connect_args={"sslmode": "require"},
+    connect_args={"sslmode": ssl_mode},
     pool_pre_ping=True,
 )
 
