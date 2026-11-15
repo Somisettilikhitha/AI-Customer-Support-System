@@ -1,0 +1,15 @@
+
+fastapi
+uvicorn[standard]
+SQLAlchemy
+psycopg[binary]
+python-dotenv
+alembic
+pydantic[email]
+PyJWT
+pwdlib[argon2]
+transformers
+torch
+sentence-transformers
+numpy
+datasets

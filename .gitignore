@@ -1,0 +1,115 @@
+
+# ==========================================
+# ENVIRONMENT VARIABLES AND SECRETS
+# ==========================================
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# ==========================================
+# PYTHON
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python packaging
+build/
+dist-python/
+*.egg-info/
+.eggs/
+wheels/
+pip-wheel-metadata/
+
+# Python test and coverage files
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# ==========================================
+# FASTAPI / LOCAL DEVELOPMENT
+# ==========================================
+instance/
+*.pid
+
+# ==========================================
+# NODE.JS AND REACT / VITE
+# ==========================================
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+dist-ssr/
+*.local
+
+# Package manager debug logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ==========================================
+# LOGS
+# ==========================================
+logs/
+*.log
+
+# ==========================================
+# LOCAL DATABASES AND BACKUPS
+# ==========================================
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+*.bak
+
+# ==========================================
+# AI / MACHINE LEARNING GENERATED FILES
+# ==========================================
+__pycache__/
+*.pt
+*.pth
+*.h5
+*.keras
+*.onnx
+*.safetensors
+
+# ==========================================
+# EDITORS AND OPERATING SYSTEM
+# ==========================================
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ==========================================
+# TEMPORARY FILES
+# ==========================================
+*.tmp
+*.temp
+*.orig
+*.rej
