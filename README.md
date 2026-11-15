@@ -1,8 +1,8 @@
-# AI-Powered Customer Support System
+# 🤖AI-Powered Customer Support System
 
 An AI-powered customer support platform designed to manage customer queries, support tickets, agent assignments, and automated responses.
 
-## Features
+## ✨Features
 
 - User registration and login
 - Role-based access for customers, agents, and administrators
@@ -14,7 +14,7 @@ An AI-powered customer support platform designed to manage customer queries, sup
 - Admin dashboard and analytics
 - Password reset functionality
 
-## Technology Stack
+## 🛠️Technology Stack
 
 - **Frontend:** React.js, Vite, JavaScript, CSS
 - **Backend:** Python, FastAPI
@@ -22,7 +22,7 @@ An AI-powered customer support platform designed to manage customer queries, sup
 - **AI & NLP:** Transformers, Sentence Transformers, RAG
 - **Tools:** Git, VS Code, Alembic
 
-## Project Structure
+## 📁Project Structure
 
 ```text
 AI-Customer-Support-System/
@@ -91,9 +91,9 @@ AI-Customer-Support-System/
 └── README.md
 ```
 
-## Setup Instructions
+## 🚀Setup Instructions
 
-### Backend Setup
+### ⚙️Backend Setup
 
 1. Navigate to the backend directory:
 
@@ -127,7 +127,7 @@ AI-Customer-Support-System/
    uvicorn main:app --reload
    ```
 
-### Frontend Setup
+### 💻Frontend Setup
 
 1. Navigate to the frontend directory:
 
@@ -147,12 +147,14 @@ AI-Customer-Support-System/
    npm run dev
    ```
 
-## Configuration
+## 🔧Configuration
 
 Create a `.env` file inside the backend folder using the provided `.env.example` as a reference. Add your own database credentials and required configuration values.
 
-**Security:** Never commit your `.env` file, database passwords, or API keys to GitHub.
+**🔒Security:** Never commit your `.env` file, database passwords, or API keys to GitHub.
 
-## Project Status
+## 📌Project Status
 
 Developed as a full-stack AI-powered customer support project.
+
+⭐ If you find this project interesting, feel free to explore the repository!
